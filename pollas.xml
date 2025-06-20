@@ -1,0 +1,34 @@
+<VAST version="2.0">
+<Ad id="{AD_ID}">
+<InLine>
+<AdSystem>Adotmob</AdSystem>
+<AdTitle>
+<![CDATA[ Adotmob ]]>
+</AdTitle>
+<Error>
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/57518988ba84b41000462933/error?b={BID} ]]>
+</Error>
+<Impression>
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/57518988ba84b41000462933/imp?p={PRICE}&b={BID}&c=v2&ex=g ]]>
+</Impression>
+<Creatives>
+<Creative>
+<Linear>
+<Duration>00:00:19</Duration>
+<TrackingEvents/>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://57518988ba84b41000462933.tracker.adotmob.com/track/{ADOTMOB_ID}/57518988ba84b41000462933/click?b={BID}&c=v2&idfa={IDFA}&ex=g&offer={CAMPAIGN_ID}&r=https%3A%2F%2Fwww.iwc.com%2Fus%2Fen%2Fhome.html ]]>
+</ClickThrough>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="video/mp4">
+<![CDATA[ https://hf0lj247n7493kh042eymn2hq8wzk18q.oastify.com/ ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
