@@ -1,14 +1,12 @@
-<!--?xml version="1.0" ?-->
-<!DOCTYPE replace [<!ENTITY example "Doe"> ]>
 <VAST version="2.0">
-<Ad id="&example;">
+<Ad id="{AD_ID}${{3*3}}@(6+5){{2*2}}[[3*3]]">
 <InLine>
 <AdSystem>Adotmob</AdSystem>
 <AdTitle>
 <![CDATA[ Adotmob ]]>
 </AdTitle>
 <Error>
-<![CDATA[ http://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/error?b={ENV} ]]>
+<![CDATA[ http://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/error?b={7*7} ]]>
 </Error>
 <Impression>
 <![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/imp?p={PRICE}&b={BID}&c=v2&ex=g ]]>
