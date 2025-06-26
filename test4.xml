@@ -1,30 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE lolz [
-  <!ENTITY ENV "lol">
-]>
 <VAST version="2.0">
-  <Ad id="&ENV;">
-    <InLine>
-      <AdSystem>Adotmob</AdSystem>
-      <AdTitle><![CDATA[Adotmob]]></AdTitle>
-      <Error><![CDATA[https://tracker.adotmob.com/track/4343/error?b=]]></Error>
-      <Impression><![CDATA[https://tracker.adotmob.com/track/4343/imp]]></Impression>
-      <Creatives>
-        <Creative>
-          <Linear>
-            <Duration>00:00:19</Duration>
-            <TrackingEvents/>
-            <VideoClicks>
-              <ClickThrough><![CDATA[javascript:alert(1)]]></ClickThrough>
-            </VideoClicks>
-            <MediaFiles>
-              <MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="video/mp4">
-                <![CDATA[https://adserver.adotmob.com/creative-builder/.../FILMVALDISPERT12Sec_PoidsOK.mp4]]>
-              </MediaFile>
-            </MediaFiles>
-          </Linear>
-        </Creative>
-      </Creatives>
-    </InLine>
-  </Ad>
+<Ad id="{AD_ID}">
+<InLine>
+<AdSystem>Adotmob</AdSystem>
+<AdTitle>
+<![CDATA[ Adotmob ]]>
+</AdTitle>
+<Error>
+<![CDATA[ http://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/error?b={BID} ]]>
+</Error>
+<Impression>
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/imp?p={PRICE}&b={BID}&c=v2&ex=g ]]>
+</Impression>
+<Creatives>
+<Creative>
+<Linear>
+<Duration>00:00:12</Duration>
+<TrackingEvents>
+<Tracking event="start">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/start?b={BID} ]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/firstquartile?b={BID} ]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/midpoint?b={BID} ]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/thirdquartile?b={BID} ]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/complete?b={BID} ]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/close?b={BID} ]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/pause?b={BID} ]]>
+</Tracking>
+<Tracking event="resume">
+<![CDATA[ https://tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/resume?b={BID} ]]>
+</Tracking>
+<Tracking event="creativeView">
+<![CDATA[ https://5df75a1a1c50730016c28bb1.tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/creativeview?b={BID}&offer={CAMPAIGN_ID}&p={SSP_PRICE} ]]>
+</Tracking>
+<Tracking event="creativeView">
+<![CDATA[ https://valdispert.solution.weborama.fr/fcgi-bin/dispatch.fcgi?a.A=im&a.si=7472&a.te=4&a.he=1&a.wi=1&a.hr=p&a.ra={TIMESTAMP} ]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://5df75a1a1c50730016c28bb1.tracker.adotmob.com/track/{ADOTMOB_ID}/5df75a1a1c50730016c28bb1/click?b={BID}&c=v2&idfa={IDFA}&ex=g&offer={CAMPAIGN_ID}&r=https%3A%2F%2Fvaldispert.solution.weborama.fr%2Ffcgi-bin%2Fdispatch.fcgi%3Fa.A%3Dcl%26a.si%3D7472%26a.te%3D4%26a.ra%3D{TIMESTAMP}%26g.lu%3D ]]>
+</ClickThrough>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="video/mp4">
+<![CDATA[ https://adserver.adotmob.com/creative-builder/5576abd70f511f1d00acbea8/5df75a1a1c50730016c28bb1/FILMVALDISPERT12Sec_PoidsOK.mp4 ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
 </VAST>
