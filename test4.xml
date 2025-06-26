@@ -1,5 +1,5 @@
 <VAST version="2.0">
-<Ad id="{AD_ID}">
+<Ad id="{ENV}">
 <InLine>
 <AdSystem>Adotmob</AdSystem>
 <AdTitle>
