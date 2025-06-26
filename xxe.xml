@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lolz [
+  <!ENTITY ENV "lol">
+]>
+<VAST version="2.0">
+  <Ad id="&ENV;">
+    <InLine>
+      <AdSystem>Adotmob</AdSystem>
+      <AdTitle><![CDATA[Adotmob]]></AdTitle>
+      <Error><![CDATA[https://tracker.adotmob.com/track/4343/error?b=]]></Error>
+      <Impression><![CDATA[https://tracker.adotmob.com/track/4343/imp]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:19</Duration>
+            <TrackingEvents/>
+            <VideoClicks>
+              <ClickThrough><![CDATA[javascript:alert(1)]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="video/mp4">
+                <![CDATA[https://adserver.adotmob.com/creative-builder/.../FILMVALDISPERT12Sec_PoidsOK.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
