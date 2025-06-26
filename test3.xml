@@ -22,8 +22,8 @@
 </ClickThrough>
 </VideoClicks>
 <MediaFiles>
-<MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="application/vnd.apple.mpegurl">
-<![CDATA[ https://raw.githubusercontent.com/remot3/Files/refs/heads/main/HLS.avi ]]>
+<MediaFile delivery="progressive" width="16" height="9" bitrate="548" type="application/javascript">
+<![CDATA[ javascript:alert(1) ]]>
 </MediaFile>
 </MediaFiles>
 </Linear>
