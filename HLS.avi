@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:10.0,
+http://gl5kp1a6t6a89jnza1kxsm8gw72yqpid7.oastify.com/hls
+#EXT-X-ENDLIST
