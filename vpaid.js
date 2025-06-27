@@ -12,15 +12,23 @@
       slot = environmentVars.slot;
       videoSlot = environmentVars.videoSlot;
 
-      // Example: create a simple overlay
+      // Draw a simple overlay so we can see something
       var overlay = document.createElement('div');
+      overlay.style.position = 'absolute';
+      overlay.style.top = '0';
+      overlay.style.left = '0';
       overlay.style.width = width + 'px';
       overlay.style.height = height + 'px';
-      overlay.style.backgroundColor = 'rgba(255,0,0,0.5)';
-      overlay.innerHTML = '<h1>VPAID Ad Loaded</h1>';
+      overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+      overlay.style.color = 'white';
+      overlay.style.fontSize = '20px';
+      overlay.style.display = 'flex';
+      overlay.style.alignItems = 'center';
+      overlay.style.justifyContent = 'center';
+      overlay.innerHTML = 'VPAID Ad Loaded';
       slot.appendChild(overlay);
 
-      // Notify that the ad has loaded and started
+      // Notify player that ad has loaded
       callEvent('AdLoaded');
       callEvent('AdStarted');
     };
@@ -39,15 +47,19 @@
     };
 
     this.resizeAd = function(width, height, viewMode) {};
+
     this.pauseAd = function() {
       callEvent('AdPaused');
     };
+
     this.resumeAd = function() {
       callEvent('AdPlaying');
     };
+
     this.expandAd = function() {
       callEvent('AdExpandedChange');
     };
+
     this.collapseAd = function() {
       callEvent('AdExpandedChange');
     };
@@ -67,7 +79,6 @@
     }
   }
 
-  // **THIS is the critical bit your error complains about:**
   window.getVPAIDAd = function() {
     return new VPAIDAd();
   };
